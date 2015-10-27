@@ -1,0 +1,11 @@
+import java.util.*;
+
+public interface KlantDao {
+  	
+	public void insert(Klant klant);
+	public List<Klant> select();
+	public Klant getKlant(int klant_id);
+	public void update(Klant klant);
+	public void delete(Klant klant);
+
+}
